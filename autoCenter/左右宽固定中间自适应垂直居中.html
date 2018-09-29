@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{margin:0;padding: 0;}
+			#boxbody{width: 100%;height: 300px;position: absolute;top: 50%;margin:-150px 0 0 0px;border: 1px solid #000;text-align: center;line-height: 300px;}
+			.box2{width: 100%;height: 100%;display: flex;}
+			.box2 div:nth-of-type(1),.box2 div:nth-of-type(3){width: 200px;background: #DB9C4E;}
+			.box2 div:nth-of-type(2){flex: 1;}
+		</style>
+	</head>
+	<body>
+		<div id="boxbody">
+			<div class="box2">
+				<div>左200px</div>
+				<div>中间宽自适应</div>
+				<div>右200px</div>
+			</div>
+		</div>
+	</body>
+</html>
